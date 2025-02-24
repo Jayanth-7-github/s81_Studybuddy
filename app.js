@@ -8,7 +8,19 @@ app.get("/",async(req,res)=>{
 })
 
 
+
+
+
 const port =process.env.PORT
+
+
+
+
+
+
+
+
+
 
 
 app.listen(port,async()=>{
@@ -20,3 +32,15 @@ try {
     console.log(error)
 }
 })
+
+
+
+
+
+
+
+
+
+
+
+
