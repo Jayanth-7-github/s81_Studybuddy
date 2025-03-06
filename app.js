@@ -9,18 +9,6 @@ app.get("/", async (req, res) => {
 
 
 
-const port = process.env.PORT;
-
-app.listen(port, async () => {
-  try {
-    await connect;
-
-    console.log(`app is running on http://localhost:${port}`);
-  } catch (error) {
-    console.log(error);
-  }
-});
-
 
 const port =process.env.PORT
 
