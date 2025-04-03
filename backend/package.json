@@ -1,0 +1,22 @@
+{
+  "name": "s81_study_buddy",
+  "version": "1.0.0",
+  "description": "Study Buddy is a platform that helps students study together by creating study groups, sharing resources, and tracking progress. It aims to make studying more interactive and fun by connecting students with peers and offering tools to stay on track.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+
+    
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongodb": "^6.13.0",
+    "mongoose": "^8.10.1",
+    "nodemon": "^3.1.9"
+  }
+}
